@@ -4,21 +4,21 @@ cask "ccmb" do
 
   on_macos do
     on_arm do
-      sha256 "e28230905519f19ec565ae89d436db70482bcd7eb192fa8bc31f66c8be20e916"
+      sha256 "d55eb6f8ae6ac4aecd79593e1533b6a6a89a69daf122ac17cc0de4da7503fdf0"
       url "https://github.com/jonas-lesage-be/ccmb/releases/download/v#{version}/ccmb_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "83403a798882dc1d2bbae63d1d0c821505178d9b9daa47d383f21264a99c4dcc"
+      sha256 "1af114761d5f10ee9b5237ce152a63f67ec3e64457230a84db19baf1dada77ee"
       url "https://github.com/jonas-lesage-be/ccmb/releases/download/v#{version}/ccmb_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "8bdcf50145f7aefe676b11455e44db0b38c433b09ce5f76d3ec3537ea58053c0"
+      sha256 "1481ca5dfe89e22b314ff8210a575e64ada2e5dc0b99ce77487eeeeaaf0b7dd8"
       url "https://github.com/jonas-lesage-be/ccmb/releases/download/v#{version}/ccmb_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e9be0b0f7c3aa8358c0bb621a4bdd54a633d8033e25da5cdad98c86059e81aaf"
+      sha256 "d30582a50a63e981296bc89ba1d05bfbaa61983eeaafecd510efb16e42064f73"
       url "https://github.com/jonas-lesage-be/ccmb/releases/download/v#{version}/ccmb_#{version}_linux_amd64.tar.gz"
     end
   end
